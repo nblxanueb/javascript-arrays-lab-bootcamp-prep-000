@@ -31,3 +31,10 @@ function prependKitten(name) {
   return [name, ...kittens];
 
 }
+
+function removeLastKitten() {
+  kittens.slice(0,array.length-1);
+  return kittens;
+  
+
+}
