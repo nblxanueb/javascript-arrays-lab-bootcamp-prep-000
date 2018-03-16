@@ -40,6 +40,7 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  return kittens.slice(1);
-
+  var newKittens = [...kittens]
+  newKittens.shift()
+  return newKittens
 }
